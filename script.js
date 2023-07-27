@@ -9,11 +9,11 @@ class Person {
 		return this._name;
 	}
 	//Setter for Age
-	set setAge(Newage){
-		 this._age = Newage;
+	set setAge(age){
+		 this._age = age;
 	}
 	// get getAge(){
-	// 	return this.age;
+	// 	return this._age;
 	// }
 }
 
