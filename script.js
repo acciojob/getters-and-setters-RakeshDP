@@ -12,21 +12,29 @@ class Person {
 	set setAge(Newage){
 		 this.age = Newage;
 	}
-	get getAge(){
-		return this.age;
-	}
+	// get getAge(){
+	// 	return this.age;
+	// }
 }
 
 
 class Student extends Person {
-	super
+	constructor(name,age){
+		super(name,age);
+	}
+	
 	study(){
-		console.log(`${this.name} is studying`)
+		console.log(`${this.name} is studying.`)
 	}
 }
 
 class Teacher extends Person {
-	super
+	constructor(name,age){
+		super(name,age);
+	}
+	teach(){
+		console.log(`${this.name} is teaching`);
+	}
 }
 
 // Do not change the code below this line
